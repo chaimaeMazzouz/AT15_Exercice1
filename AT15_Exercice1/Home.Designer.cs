@@ -1,6 +1,6 @@
 ﻿namespace AT15_Exercice1
 {
-    partial class Form1
+    partial class Home
     {
         /// <summary>
         /// Required designer variable.
@@ -97,6 +97,7 @@
             this.listeClientsToolStripMenuItem.Name = "listeClientsToolStripMenuItem";
             this.listeClientsToolStripMenuItem.Size = new System.Drawing.Size(270, 22);
             this.listeClientsToolStripMenuItem.Text = "Liste Clients";
+            this.listeClientsToolStripMenuItem.Click += new System.EventHandler(this.listeClientsToolStripMenuItem_Click);
             // 
             // listeComptesToolStripMenuItem
             // 
@@ -122,14 +123,15 @@
             this.listeVirementsParCompteCréditeurToolStripMenuItem.Size = new System.Drawing.Size(270, 22);
             this.listeVirementsParCompteCréditeurToolStripMenuItem.Text = "Liste Virements par compte Créditeur";
             // 
-            // Form1
+            // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(744, 415);
             this.Controls.Add(this.menuStrip1);
+            this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
+            this.Name = "Home";
             this.Text = "Gestion Bancaire";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

@@ -29,16 +29,18 @@
         private void InitializeComponent()
         {
             this.crystalReportViewerClient = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
+            this.CrystalReportClient1 = new AT15_Exercice1.CrystalReportClient();
             this.SuspendLayout();
             // 
             // crystalReportViewerClient
             // 
-            this.crystalReportViewerClient.ActiveViewIndex = -1;
+            this.crystalReportViewerClient.ActiveViewIndex = 0;
             this.crystalReportViewerClient.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.crystalReportViewerClient.Cursor = System.Windows.Forms.Cursors.Default;
             this.crystalReportViewerClient.Dock = System.Windows.Forms.DockStyle.Fill;
             this.crystalReportViewerClient.Location = new System.Drawing.Point(0, 0);
             this.crystalReportViewerClient.Name = "crystalReportViewerClient";
+            this.crystalReportViewerClient.ReportSource = this.CrystalReportClient1;
             this.crystalReportViewerClient.Size = new System.Drawing.Size(779, 436);
             this.crystalReportViewerClient.TabIndex = 0;
             // 
@@ -50,6 +52,7 @@
             this.Controls.Add(this.crystalReportViewerClient);
             this.Name = "listeClients";
             this.Text = "listeClients";
+            this.Load += new System.EventHandler(this.listeClients_Load);
             this.ResumeLayout(false);
 
         }
@@ -57,5 +60,6 @@
         #endregion
 
         private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewerClient;
+        private CrystalReportClient CrystalReportClient1;
     }
 }
