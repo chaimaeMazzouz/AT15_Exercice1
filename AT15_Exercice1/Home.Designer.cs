@@ -104,6 +104,7 @@
             this.listeComptesToolStripMenuItem.Name = "listeComptesToolStripMenuItem";
             this.listeComptesToolStripMenuItem.Size = new System.Drawing.Size(270, 22);
             this.listeComptesToolStripMenuItem.Text = "Liste Comptes";
+            this.listeComptesToolStripMenuItem.Click += new System.EventHandler(this.listeComptesToolStripMenuItem_Click);
             // 
             // listeMouvementParCompteToolStripMenuItem
             // 

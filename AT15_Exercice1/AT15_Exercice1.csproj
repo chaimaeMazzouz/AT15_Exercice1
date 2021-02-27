@@ -59,6 +59,12 @@
       <DependentUpon>CrystalReportClient.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="CrystalReportCompte.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReportCompte.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,17 +77,30 @@
     <Compile Include="listeClients.Designer.cs">
       <DependentUpon>listeClients.cs</DependentUpon>
     </Compile>
+    <Compile Include="listeComptes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listeComptes.Designer.cs">
+      <DependentUpon>listeComptes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CrystalReportClient.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CrystalReportClient.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReportCompte.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReportCompte.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="listeClients.resx">
       <DependentUpon>listeClients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listeComptes.resx">
+      <DependentUpon>listeComptes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

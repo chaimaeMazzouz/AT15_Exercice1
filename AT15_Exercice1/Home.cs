@@ -27,5 +27,11 @@ namespace AT15_Exercice1
         {
             Changer_Form(new listeClients());
         }
+
+        private void listeComptesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Changer_Form(new listeComptes());
+
+        }
     }
 }
