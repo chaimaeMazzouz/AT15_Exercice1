@@ -33,5 +33,11 @@ namespace AT15_Exercice1
             Changer_Form(new listeComptes());
 
         }
+
+        private void listeMouvementParCompteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Changer_Form(new listeMouvements());
+
+        }
     }
 }

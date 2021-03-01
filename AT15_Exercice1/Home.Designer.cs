@@ -111,6 +111,7 @@
             this.listeMouvementParCompteToolStripMenuItem.Name = "listeMouvementParCompteToolStripMenuItem";
             this.listeMouvementParCompteToolStripMenuItem.Size = new System.Drawing.Size(270, 22);
             this.listeMouvementParCompteToolStripMenuItem.Text = "Liste Mouvements par compte";
+            this.listeMouvementParCompteToolStripMenuItem.Click += new System.EventHandler(this.listeMouvementParCompteToolStripMenuItem_Click);
             // 
             // listeVirementsParCompteDébiteurToolStripMenuItem
             // 

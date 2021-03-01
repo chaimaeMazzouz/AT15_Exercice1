@@ -21,7 +21,6 @@ namespace AT15_Exercice1
         private void listeClients_Load(object sender, EventArgs e)
         {
             crystalReportViewerClient.ReportSource = Cr_client;
-            crystalReportViewerClient.PrintReport();
         }
     }
 }
