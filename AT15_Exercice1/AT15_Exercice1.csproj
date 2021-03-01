@@ -71,6 +71,12 @@
       <DependentUpon>CrystalReportMouvement.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="CrystalReportVrDeb.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReportVrDeb.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,12 @@
     <Compile Include="listeMouvements.Designer.cs">
       <DependentUpon>listeMouvements.cs</DependentUpon>
     </Compile>
+    <Compile Include="listeVirements_Debiteur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listeVirements_Debiteur.Designer.cs">
+      <DependentUpon>listeVirements_Debiteur.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CrystalReportClient.rpt">
@@ -109,6 +121,10 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CrystalReportMouvement.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReportVrDeb.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReportVrDeb.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
@@ -120,6 +136,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="listeMouvements.resx">
       <DependentUpon>listeMouvements.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listeVirements_Debiteur.resx">
+      <DependentUpon>listeVirements_Debiteur.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

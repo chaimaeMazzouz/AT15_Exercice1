@@ -118,12 +118,14 @@
             this.listeVirementsParCompteDébiteurToolStripMenuItem.Name = "listeVirementsParCompteDébiteurToolStripMenuItem";
             this.listeVirementsParCompteDébiteurToolStripMenuItem.Size = new System.Drawing.Size(270, 22);
             this.listeVirementsParCompteDébiteurToolStripMenuItem.Text = "Liste Virements par compte Débiteur";
+            this.listeVirementsParCompteDébiteurToolStripMenuItem.Click += new System.EventHandler(this.listeVirementsParCompteDébiteurToolStripMenuItem_Click);
             // 
             // listeVirementsParCompteCréditeurToolStripMenuItem
             // 
             this.listeVirementsParCompteCréditeurToolStripMenuItem.Name = "listeVirementsParCompteCréditeurToolStripMenuItem";
             this.listeVirementsParCompteCréditeurToolStripMenuItem.Size = new System.Drawing.Size(270, 22);
             this.listeVirementsParCompteCréditeurToolStripMenuItem.Text = "Liste Virements par compte Créditeur";
+            this.listeVirementsParCompteCréditeurToolStripMenuItem.Click += new System.EventHandler(this.listeVirementsParCompteCréditeurToolStripMenuItem_Click);
             // 
             // Home
             // 

@@ -39,5 +39,17 @@ namespace AT15_Exercice1
             Changer_Form(new listeMouvements());
 
         }
+
+        private void listeVirementsParCompteDébiteurToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Changer_Form(new listeVirements_Debiteur());
+
+        }
+
+        private void listeVirementsParCompteCréditeurToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Changer_Form(new listeVirements_Crediteur());
+
+        }
     }
 }
